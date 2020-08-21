@@ -1,0 +1,119 @@
+@font-face {
+  font-family: pridi-bold;
+  src: url(fonts/pridi/Pridi-Bold.ttf);
+}
+@font-face {
+  font-family: pridi-light;
+  src: url(fonts/pridi/Pridi-Light.ttf);
+}
+@font-face {
+  font-family: pridi-extra-light;
+  src: url(fonts/pridi/Pridi-ExtraLight.ttf);
+}
+@font-face {
+  font-family: oleo-regular;
+  src: url(fonts/oleo/OleoScript-Regular.ttf);
+}
+body{
+	padding:0px;
+	margin: 0px;
+	color: black;
+	font-family: pridi-light;
+}
+section#header{
+	background-color: #233D62;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}	
+section#header > header > nav.flex > div:first-child span{
+	color: yellow;
+	font-size: 20px;
+	padding: 5px;
+	border-radius: 10px;
+	box-shadow: 0px 5px 5px 0px black;
+	font-family: pridi-bold;
+
+}
+a{
+	color: #9ADCF3;
+	text-decoration: none;
+	margin-right: 5px;
+	margin-left: 5px;
+
+}
+input{
+	width: 300px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid;
+	position: relative;
+}
+
+.fa-search{
+	position: absolute;
+	margin-left: -30px;
+	margin-top: 6px;
+	color: black;
+}
+input::placeholder{
+	color: #233D62;
+	font-size: 15px;
+
+}
+
+section#intro > div.flex > div:first-child{
+	background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('../kitchen/kc9.jpg') no-repeat no-repeat center center;
+	background-size: cover;
+	width: 80%;
+	font-size: 40px;
+	text-align: center;
+	padding: 80px;
+}
+section#intro > div.flex > div:last-child{
+	background-color: #233D62;
+	color: #9ADCF3;
+	width: 20%;
+	
+}
+section#intro button.btn{
+	background-color: #233D62;
+	color: #9ADCF3;
+	border:1px solid #9ADCF3;
+	padding: 20px;
+	font-size: 20px;
+
+}
+button > i.fa-cart-plus{
+	margin-left: 10px;
+}
+ul li i{
+	margin-left: 15px;
+}
+ul li{
+	margin-bottom: 30px;
+}
+section#purchase > div.flex > div > div{
+	/*border: 1px solid black;*/
+	text-align: center;
+	margin: 10px;
+	box-shadow: 5px 5px 5px 5px #233D62;
+
+}
+section#purchase button.btn{
+	background-color: #9ADCF3;
+	color: #233D62;
+	border:1px solid #233D62;
+	padding: 10px;
+	font-size: 20px;
+	margin-bottom: 7px;
+	cursor: pointer;
+}
+section#purchase > div.flex{
+	margin-bottom: 25px
+}
+footer{
+	background-color: black;
+	color: grey;
+	padding: 20px;
+	text-align: center;
+}

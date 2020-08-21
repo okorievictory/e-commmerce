@@ -1,0 +1,56 @@
+.flex{
+	display: flex;
+}
+.justify-between{
+	justify-content: space-between;
+}
+
+.justify-around{
+	justify-content: space-around;
+}
+
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;	
+}
+.text-left{
+	text-align: left;
+}
+.text-color{
+	color: #2674BE;
+}
+.float-right{
+	float: right;
+}
+ul li{
+	list-style-type: none;
+}
+.color{
+	color: black;
+}
+.color-red{
+	color: red;
+}
+.list-style{
+	list-style-type: none;
+}
+div.purchase-img{
+	height: 180px;
+	width: 100%;
+	overflow: hidden;
+}
+h3{
+	width: 10%;
+	padding: 10px;
+	margin-top: 25px;
+	background-color: #233D62;
+	color: #9ADCF3; 
+}
+.purchase-art{
+	text-align: center;
+	width: 100%;
+	/*padding: 10px;*/
+}
+
